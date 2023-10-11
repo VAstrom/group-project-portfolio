@@ -30,7 +30,7 @@ export const App = () => {
 
   return (
     <>
-      <Headline />
+      <Headline headerText={Headertext} />
       <Section
         repos={repos}
       />

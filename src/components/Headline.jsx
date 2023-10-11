@@ -1,9 +1,9 @@
 
 
-export const Headline = () => {
+export const Headline = ({ Headertext }) => {
   return (
     <div className="headline">
-        <h1>Featured Projects</h1>
+      <h1>{Headertext}</h1>
     </div>
   )
 }
