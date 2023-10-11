@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/hind');
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+/* Headline css */
+.headline h1 {
+  font-family: Montserrat;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 98px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0B24F5;
+}

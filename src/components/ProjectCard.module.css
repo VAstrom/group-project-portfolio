@@ -1,0 +1,23 @@
+.projectWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+  }
+  
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px
+  }
+  
+  .projectDescription {
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  .card-img {
+    width: 280px;
+    height: 280px;
+    border: 0 20px #0B24F5 solid;
+  }
+  
