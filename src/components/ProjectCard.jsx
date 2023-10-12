@@ -13,7 +13,7 @@ export const ProjectCard = ({ repo }) => {
           <div className="projectDescription">
             <p>{repo.description}</p>
           </div>
-          <div className="project-tags">{repo.language}</div>
+          <div className="project-tags">{repo.topics}</div>
           <div className="project-buttons"><button>test</button></div>
         </div>
       </div>
