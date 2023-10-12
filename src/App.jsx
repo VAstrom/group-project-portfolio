@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Headline } from './components/Headline';
 import { Section } from './Section/Section';
 import './App.css';
+import { Test } from './components/Test';
 
 function App() {
   const [repos, setRepos] = useState([]);
@@ -30,6 +31,7 @@ function App() {
       <Section
         repos={repos}
       />
+      <Test />
     </>
   );
 };
