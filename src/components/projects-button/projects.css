@@ -1,0 +1,69 @@
+/* button part style */
+.button-wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-wrapper button{
+    margin: 1rem 1rem;
+    border:none;
+    border-radius: 40px;
+    width:209px;
+    height:48px;
+    padding:0 16px 0 0;
+    gap: 7px;
+    color:#000000;
+    font-size: 20px
+}
+
+.button-wrapper button img {
+    display: inline-block; 
+    vertical-align: middle;
+    margin-right: 7px; 
+  }
+
+.button-wrapper button span {
+    display: inline-block; 
+    vertical-align: middle;
+  }
+.button-wrapper a{
+    text-decoration: none;
+    
+}
+
+@media (min-width:1024px) {
+    .button-wrapper{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-wrapper button{
+        margin-left: 0;
+    }
+   
+ 
+}
+@media (min-width:678px) and (max-width:1023px) {
+    .button-wrapper{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .button-wrapper button{
+        width:180px;
+        height:38px;
+        font-size:18px;
+        padding:0;
+       
+    }
+    .button-wrapper{
+        margin: 0;
+    }
+    .button-wrapper button{
+        margin-left: 0;
+    }
+    .button-wrapper button img {
+        width:30px;
+      }
+}
