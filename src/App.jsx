@@ -4,7 +4,7 @@ import { Section } from './Section/Section';
 import './App.css';
 import { Test } from './components/Test';
 
-function App() {
+export const App = () => {
   const [repos, setRepos] = useState([]);
 
   const githubUsername = 'isarobertini'; // Replace with the desired GitHub username
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <Headline headerText={Headertext} />
+      <Headline />
       <Section
         repos={repos}
       />
